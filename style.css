@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+a {
+  color: #5f6368;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.head-nav {
+  padding: 1.2rem 1rem 0rem 1.2rem;
+}
+.head-nav__right {
+  display: flex;
+  align-items: center;
+}
+.head-nav__right img {
+  opacity: 0.5;
+}
+.head-nav__right img:hover {
+  opacity: 1;
+}
+.head-nav__right--button {
+  color: white;
+  background-color: #4285f4;
+  font-weight: 700;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+.main {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.main__logo {
+  margin-bottom: 1.5rem;
+}
+.main__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  width: 517px;
+  height: 45px;
+  margin: auto;
+  margin-bottom: 1.8rem;
+}
+.main__search:hover {
+  box-shadow: 3px 3px 5px 0 rgb(211, 211, 211);
+}
+.main__search--magnify {
+  width: 30px;
+  height: 30px;
+}
+.main__search--micro {
+  width: 14px;
+  height: 20px;
+  cursor: pointer;
+}
+.main__search--bar {
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.main__buttons {
+  margin-bottom: 1.25rem;
+}
+.main__buttons--left,
+.main__buttons--right {
+  background-color: #f0f0f0;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.main__buttons--left:hover,
+.main__buttons--right:hover {
+  opacity: 1;
+  box-shadow: 2px 2px 2px 0 rgb(211, 211, 211);
+  border-top: 0.1px solid #d3d3d3;
+  border-left: 0.1px solid #d3d3d3;
+}
+.main__buttons--left {
+  margin-right: 0.7rem;
+}
+.main__par a {
+  color: #000080;
+  text-decoration: underline;
+}
+.footer {
+  background-color: #f2f2f2;
+}
+.footer__country {
+  color: #5f6368;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 1rem;
+  font-size: 14px;
+}
+.footer__nav {
+  padding: 1rem;
+}
